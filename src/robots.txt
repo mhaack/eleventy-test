@@ -1,0 +1,4 @@
+Sitemap: https://naughty-panini-33860b.netlify.app/sitemap.xml
+
+User-agent: *
+Disallow:
