@@ -2,7 +2,7 @@
 title: "Home Assistant: You have got mail"
 author: Markus
 date: 2020-09-05
-permalink: "/you-have-got-mail/"
+slug: you-have-got-mail
 excerpt: "Today I want to share a little holiday project I build this week: a
   mailbox sensor to make a dumb mailbox smart and notifying us if we got new
   mail. I’m talking about real physical mail here - letters, postcards,
@@ -50,7 +50,7 @@ With Deconz integrated into Home Assistant the new sensors are immediately avail
 
 No extra configuration is needed here. Just name the sensors are you prefer. Adding some ZigBee sensors to Home Assistant - pretty easy. Additionally to the two deCONZ sensors I use one boolean input helper plus a corresponding template sensor to keep the state of there is mail or not. deCONZ also creates battery level sensors for each battery-powered device. These are not really used here, but there are other automations that notify us of batteries running low. For convenience one more boolean input helper is used to enable/disable the mailbox notifications. In total there are 5 sensors and 2 inputs used for this project.
 
-![Mailbox sensors in Home Assistant](../images/mailbox-sensors.jpg)
+![Mailbox sensors in Home Assistant](..images/mailbox-sensors.jpg)
 
 The last step is to build out the automations. I’m still having all automations in YAML, so the mailbox automations are added here as well. For the mailbox sensor three automations are needed:
 

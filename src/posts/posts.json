@@ -1,3 +1,5 @@
 {
-    "layout": "base"
+    "layout": "base",
+    "tags": "general",
+    "permalink": "{{ slug }}/index.html"
 }
